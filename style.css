@@ -1,0 +1,354 @@
+*{
+    margin: 0px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&family=Nunito:wght@400;500;700&display=swap');
+.header{
+    position: sticky;
+    display: flex;
+    background-color: #FBE4CF;
+    height: 60px;
+    width: 100%;
+    /* border: 1px solid red; */
+    
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    color: #4B0673
+}
+ a:hover, a:active{
+    color: #EC1CA7;
+    text-decoration: none;
+
+ }
+.logo{
+    margin-left: 150px;
+    position: absolute;   
+    
+}
+.logo img{
+    width: 80%;
+}
+.landing-banner{
+position: absolute;
+display: flex;
+/* margin-left: 70px; */
+margin-top: 130px;
+/* border: 1px solid green; */
+
+}
+
+.heading{
+    position: relative;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    /* margin-left: 60px; */
+    color: #4B0673;
+    font-family: Nunito;
+    font-size:800;
+}
+div span{
+    font-size:x-large;
+    font-family: Nunito, serif;
+}
+.menu{
+ display: flex;
+ list-style-type: none;
+justify-content: space-between;
+width: 350px;
+margin-left: 800px;
+/* border: 1px solid red; */
+}
+.dotted img{
+    width: 90%;
+}
+.caption{
+    margin-left: 50px;
+    margin-top: 70px;
+    display:inline-block;
+}
+.downloadBtn img{
+ width: 200px;
+ 
+}.downloadBtn{
+    display:flex; 
+    width: 400px;   
+    margin-top: 30px;
+    margin-left: -30px;
+    /* border: 1px solid red; */
+}
+.downloadBtn a:hover{
+transform: scale(1.2);
+/* transition: transform .2s; */
+}
+
+.mockupmobile{
+    float: right;
+    margin-left: 250px;
+}
+.mockupmobile img{
+    width:90%;
+}
+.details{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    width: 800px;
+    margin: 700px auto 0 auto;
+    padding: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+}
+.detail-content{
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    line-height: 25px;
+}
+.details img{
+    height:60px;
+    width: 2px;
+}
+.digit{
+    color:#EC1CA7;
+    font-size:large;
+    font-weight:bold;
+}
+.detail-content img{
+    width: 45px;
+    height: 45px;
+}
+/* .detail-content>div:nth-child(1){
+    color: #4F5665;
+}
+.detail-content>div:first-child{
+    color: #EC1CA7;
+
+} */
+.feature-content{
+    display:flex;
+    justify-content: space-between;
+    margin: 100px 160px 50px 160px;
+    width: 1000px;
+}
+.featureimage img{
+    width:75%; 
+}
+.features{
+    list-style-type: none;
+    display: block;
+}
+.feature{
+    width: 310px;
+    margin-top: 60px;
+    
+}
+.feature h1{
+    margin-bottom: 20px;
+}
+.feature>p{
+    margin-bottom: 25px;
+}
+.features p{
+    margin-bottom:20px;
+    display: flex;    
+}
+.featuredeach img{
+    margin-right: 5px;
+   
+}
+.features p:last-child{
+    margin-left:20px;
+    color:#EC1CA7;
+
+}
+.features img{
+    width:13px;
+    height:13px;
+}
+.mid-section{
+    position:absolute;
+    margin: 100px 0px 0 0px;
+    background: #4B0673;
+    height: 1100px;
+    width: 100%;
+}
+.mid-heading{
+    
+    margin-top: 30px;   
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.mid-header{
+    position: relative;
+    margin: 150px auto auto;    
+    width: 600px;
+    color: white;
+    display: block;
+    
+}
+ .mid-header p{
+    font-size: large;
+    text-align: center;
+ }
+.cards{
+    display: grid;
+    position: relative;
+    grid-template-columns: auto auto auto;
+    width: 800px;
+    margin: 90px auto;    
+    grid-column-gap:15px;
+    grid-row-gap: 30px;
+    height: auto;
+    /* border: 1px solid red; */
+}
+.card-content{
+    position: relative;
+    padding: 40px 25px;
+    background: white;
+    border-radius: 8px;
+    width: 190px;
+    height: 170px;
+}
+.card-content img{
+    width: 22px;
+    height: 22px;
+}
+.captioning{
+    margin-top: 5px;
+    color:#4B0673;
+    font-weight: bold;
+}
+.card-content p:last-child{
+    margin-top: 25px;
+}
+
+.user-header{
+    position: relative;
+    margin: 0 auto;
+    width: 600px;
+    margin-top: 1400px;
+}
+.user-heading{
+    text-align: center;
+    margin-bottom: 20px;
+    color:#4B0673;
+}
+.user-header p{
+    width: 330px;
+    margin: 0 auto;
+    text-align: center;
+    color:#4B0673;
+}
+
+.users{
+    position: relative;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    /* border: 1px solid red; */
+    grid-gap: 25px;
+    margin-top: 80px;
+    
+}
+.users>div{
+    border: 1px solid black;
+    border-radius:5px;
+    padding: 10px;
+}
+.users>div>p{
+    margin-top:10px;
+}
+.user-profile{
+    display: flex;
+    justify-content: space-between;
+    width: 180px;
+}
+.user-profile img{
+    width: 40px;
+    height: 40px;
+}
+.name{
+    font-size:large;
+    font-weight:bold;
+    color: #EC1CA7;
+}
+.slider-signal{
+    margin-top: 80px;
+    text-align: center;
+    border: none;  
+    margin-bottom: 130px;  
+}
+.slider-signal img{
+    width: 10%;
+}
+.campaign{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 650px;
+    position: relative;
+    margin: 0 auto;
+    /* border: 1px solid black; */
+    border-radius: 5px;
+    padding: 30px;
+    margin-top: -75px;
+    background: white;
+    
+}
+.campaign-content{
+    width: 350px;
+    text-align: left;
+    float: left;
+}
+.campaign img{
+    width: 80px;
+    height: 80px;
+}
+.campaign button{
+    background:#EC1CA7;
+    width: 150px;
+    height: 35px;
+    padding: 5px 25px;
+    border:none;
+    border-radius: 5px;
+    color: white;    
+}
+.campaign button:hover{
+    transform: scale(1.2);
+}
+.footer{
+    background:#4B0673;
+    height:400px;
+    width: 100%;
+    position:absolute;
+    font-size:small;
+    
+}
+.footer-content{
+    display: flex;
+    justify-content: space-between;
+    width: 700px;
+    color: white;
+    margin: 100px auto;    
+}
+.footer-left{
+    width: 350px;
+}
+.footer-left img{
+    width: 30%;
+    margin-bottom: 25px;
+}
+.footer-left>div img{
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+}
+.footer-left>p{
+    margin-top: -10px;
+}
+.footer-links p{
+    margin-top: 15px;
+    font-size: small;
+}
